@@ -1,0 +1,245 @@
+:root {
+    --green: #00DB67;
+    --gray: #212529;
+}
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar-nav .nav-item.active a.nav-link {
+    color: white !important;
+}
+
+body {
+    background-color: var(--gray);
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.navbar {
+    margin-top: 0;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: rgba(23, 26, 29, 0.548) !important;
+    backdrop-filter: blur(4px);
+    font-size: 20px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: var(--green);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.navbar-brand {
+    font-family: 'Dela Gothic One', cursive;
+    color: var(--green);
+    font-size: 25px;
+}
+
+.heading {
+    font-family: 'Kanit', sans-serif;
+}
+
+.name {
+    font-family: 'Kanit', sans-serif;
+}
+
+.profile {
+    color: white;
+    margin-top: 150px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-img {
+    padding-top: 100px;
+    margin-left: 50px;
+}
+
+.hero {
+    margin-top: 0px;
+    /* padding-top: 10px; */
+}
+
+#hero-green {
+    color: var(--green);
+    font-weight: 400;
+}
+
+img {
+    /* margin-left: 50px; */
+    margin-right: auto;
+}
+
+.btn {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: var(--green);
+    border-color: var(--green);
+    color: white;
+}
+
+.btn-view {
+    transition: ease-in-out 0.5s;
+    -webkit-transition: ease-in-out 0.5s;
+    -moz-transition: ease-in-out 0.5s;
+    -ms-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
+}
+
+.btn-view:hover {
+    scale: 110%;
+}
+
+.btn:hover {
+    transition: 300ms;
+    color: var(--green);
+    background-color: var(--gray);
+    border-color: var(--green);
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+
+#about-me {
+
+}
+
+#profile-subtitle {
+    color: var(--green);
+}
+
+.projects {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+
+#projects h2 {
+    color: white;
+}
+
+.card {
+    background-color: var(--gray);
+    color: white;
+    border-color: var(--green);
+    border-width: 2.5px;
+    transition: ease-in-out 0.5s;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card:hover {
+    scale: 120%;
+}
+
+.card-img-top {
+    margin-top: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.contact {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.list-group a{
+    border-color: var(--green);
+    text-align: center;
+    color: var(--green);
+    transition: ease-in-out 0.5s;
+    -webkit-transition: ease-in-out 0.5s;
+    -moz-transition: ease-in-out 0.5s;
+    -ms-transition: ease-in-out 0.5s;
+    -o-transition: ease-in-out 0.5s;
+}
+
+.linkedin:hover {
+    color: #126BC4;
+    border-color: #126BC4;
+}
+
+.instagram:hover {
+    color: #BF3890;
+    border-color: #BF3890;
+}
+
+.facebook:hover {
+    color: #106BFF;
+    border-color: #106BFF;
+}
+
+.list-group {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+@media (max-width: 576px) {
+    .hero {
+        margin-top: 10px;
+    }
+
+    .hero-img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-green {
+        margin-top: 10px;
+    }
+
+    .profile {
+        margin-top: 0px;
+    }
+
+    .card {
+        max-width: 20rem;
+    }
+
+    .projects {
+        margin-bottom: 0px;
+    }
+    
+    .contact {
+        margin-bottom: 0px;
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact {
+        margin-top: 500px;
+    }
+}
+
+@media (max-width: 1043px) {
+    .projects {
+        margin-bottom: 200px;
+    }
+}
